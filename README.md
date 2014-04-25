@@ -1,3 +1,5 @@
+#####Download the AutomatedTestExercise ZIP and open the ~\bin\TestFramework.dll in [NUnit2.6.3](http://nunit.org/?p=download) to run the test.
+---
 ##Simple Energy Exercise Answers
 *Write an automated test that takes a string as input, searches Google for that string, and fails if any of first four results do not contain that string in the title. A good test will be as flexible, reusable, and reliable as possible.*
 ####Q: What kind of input might cause your test to produce unexpected results? 
