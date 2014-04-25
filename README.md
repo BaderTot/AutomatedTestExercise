@@ -1,5 +1,4 @@
 ##Simple Energy Exercise Answers: Rachel Bader
----
 ####Q: Tell me how you would organize a large software project with multiple teams, like Simple Energy. What is your methodology? With a team with diverse types of and levels of experience, how do you get everyone to buy into a common development process?
 
 A: I would break the overall project into smaller components to be distributed to development teams paired with business/QA teams.  Teams progress in tight development iterations with feedback from business during or after every iteration. This allows teams flexibility to account for changing requirements without sacrificing fast-pace development. The key to getting everyone to buy in is keeping people involved and maintaining clear communication between business, QA, and development, perhaps via daily standup meetings. 
@@ -46,7 +45,7 @@ AutomatedTestExercise
 =====================
 ##Simple Energy Exercise Answers: Rachel Bader
 ---
-*Write an automated test that takes a string as input, searches Google for that string, and fails if any of first four results do not contain that string in the title. A good test will be as flexible, reusable, and reliable as possible. *
+Write an automated test that takes a string as input, searches Google for that string, and fails if any of first four results do not contain that string in the title. A good test will be as flexible, reusable, and reliable as possible.
 ####Q: What kind of input might cause your test to produce unexpected results? 
 A: I implemented a Selenium Webdriver test to take an input type string and run an assertion against a the first four google search results.  An example of unexpected behavior would be a search string that returns no results--the test will fail if there are no elements to reference. 
 ####Q: What kind of changes to Google's search page might require changes to your test? 
