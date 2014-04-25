@@ -51,6 +51,6 @@ A: It depends on how astringent the development process is with respect to testi
 ####Q: Why can't record and playback tools meet all our testing needs? 
 A: Click-and-record tests cannot easily account for dynamically-generated page elements or data on the page. 
 
-#####Q: What does a unit testing framework or "test harness" do? 
+####Q: What does a unit testing framework or "test harness" do? 
 A: Unit testing frameworks supply structure and methods for which to organize and execute tests against mock data. 
 
